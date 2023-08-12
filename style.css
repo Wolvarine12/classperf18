@@ -1,0 +1,80 @@
+a:link{
+    color:green;
+}
+a:visited{
+    color: rgb(17, 10, 222);
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+a:active{
+    background-color:gray ;
+}
+.b1{
+    display: inline-block;
+    padding: 60px;
+    border: 20px;
+    border: 3px solid rgb(15, 215, 19);
+    border-radius: 4px 4px 6px;
+    text-decoration: none;
+    background-color: rgb(255, 0, 25);
+
+}
+.list{
+    list-style-type: square;
+    url(check.png);
+}
+.list1{
+    list-style-type: upper-alpha;
+}
+.list2{
+    list-style-type: decimal-leading-zero;
+}
+.list3{
+    list-style-type: lower-greek;
+}
+.list4{
+    list-style-type: georgian;
+    background-color: rgba(88, 240, 7, 0.358);
+    padding: 4px;
+    margin: 6px;
+}
+.p1{
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 50px;
+    padding: 50px;
+}
+table{
+    width: 100%;
+}
+table,td,th{
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+th{
+    height: 30px;
+}
+.t0-td{
+    text-align: left;
+    height: 60px;
+    vertical-align: top;
+}
+.t1-td{
+    height: 30px;
+    text-align:right ;
+    height: 60px;
+    empty-cells: hide;
+    border: 2;
+    border-collapse: collapse;
+}
+td.hovar{
+    background: gray;
+}
+tr:nth-child(even){
+    background: rgb(5, 199, 41);
+}
+tr:nth-child(odd){
+    background-color: rgb(15, 244, 11);
+}
